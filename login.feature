@@ -14,13 +14,8 @@ Quando eu digitar "sromeiro11@gmail.com"
 E a senha "senha@123"
 Então deve exibir uma mensagem de boas vindas "Olá Sabrina"
 
-Cenário: Usuário inexistente
+Cenário: Usuário inexistente ou senha inválida
 Quando eu digitar o usuário "xxxxx@gmail.com"
-E a senha "senha@123"
-Então deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
-
-Cenário: Uusário com senha inválida
-Quando eu digitar o usuário "sromeiro11@gmail.com"
 E a senha "fjdd8015"
 Então deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
 

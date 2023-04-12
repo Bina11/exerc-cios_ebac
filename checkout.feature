@@ -20,7 +20,7 @@ E o domininio "xgmail"
 Então deve exibir uma mensagem de alerta "Email inválido"
 
 Cenário: Campos vazios
-Quando eu digitar "Sabrina" , "Romeiro Simões" , "Brasil" , "Rua da Paz, 8" , "São Paulo", "02020-020", "1199999999"
+Quando eu deixar de preencher algum campo obrigatório 
 E email " "
 Então deve exibir uma mensagem de alerta "Campo vazio"
 
